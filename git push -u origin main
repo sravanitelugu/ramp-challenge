@@ -1,0 +1,14 @@
+# Initialize your folder as a Git repository
+git init
+
+# Add the remote GitHub repository link (replace your-username and repo-name)
+git remote add origin https://github.com/your-username/ramp-challenge.git
+
+# Stage all your files for commit
+git add .
+
+# Commit your files with a message
+git commit -m "Initial challenge commit"
+
+# Push your code to GitHub (main branch might be called main or master)
+git push -u origin master
